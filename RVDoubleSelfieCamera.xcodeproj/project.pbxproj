@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B94B4C71E644160008CBCD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B94B4C61E644160008CBCD1 /* main.m */; };
+		5B94B4CA1E644160008CBCD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B94B4C91E644160008CBCD1 /* AppDelegate.m */; };
+		5B94B4CD1E644160008CBCD1 /* RVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B94B4CC1E644160008CBCD1 /* RVViewController.m */; };
+		5B94B4D21E644161008CBCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B94B4D11E644161008CBCD1 /* Assets.xcassets */; };
+		5B94B4E01E65EC20008CBCD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B94B4DC1E65EC20008CBCD1 /* LaunchScreen.storyboard */; };
+		5B94B4E11E65EC20008CBCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B94B4DE1E65EC20008CBCD1 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B94B4C21E64415F008CBCD1 /* RVDoubleSelfieCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RVDoubleSelfieCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B94B4C61E644160008CBCD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B94B4C81E644160008CBCD1 /*  */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ""; sourceTree = "<group>"; };
+		5B94B4C91E644160008CBCD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B94B4CB1E644160008CBCD1 /* RVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVViewController.h; sourceTree = "<group>"; };
+		5B94B4CC1E644160008CBCD1 /* RVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVViewController.m; sourceTree = "<group>"; };
+		5B94B4D11E644161008CBCD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B94B4D61E644161008CBCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B94B4DD1E65EC20008CBCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B94B4DF1E65EC20008CBCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B94B4BF1E64415F008CBCD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B94B4B91E64415F008CBCD1 = {
+			isa = PBXGroup;
+			children = (
+				5B94B4C41E64415F008CBCD1 /* RVDoubleSelfieCamera */,
+				5B94B4C31E64415F008CBCD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B94B4C31E64415F008CBCD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B94B4C21E64415F008CBCD1 /* RVDoubleSelfieCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B94B4C41E64415F008CBCD1 /* RVDoubleSelfieCamera */ = {
+			isa = PBXGroup;
+			children = (
+				5B94B4C81E644160008CBCD1 /*  */,
+				5B94B4C91E644160008CBCD1 /* AppDelegate.m */,
+				5B94B4CB1E644160008CBCD1 /* RVViewController.h */,
+				5B94B4CC1E644160008CBCD1 /* RVViewController.m */,
+				5B94B4D11E644161008CBCD1 /* Assets.xcassets */,
+				5B94B4D61E644161008CBCD1 /* Info.plist */,
+				5B94B4C51E644160008CBCD1 /* Supporting Files */,
+			);
+			path = RVDoubleSelfieCamera;
+			sourceTree = "<group>";
+		};
+		5B94B4C51E644160008CBCD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B94B4DC1E65EC20008CBCD1 /* LaunchScreen.storyboard */,
+				5B94B4DE1E65EC20008CBCD1 /* Main.storyboard */,
+				5B94B4C61E644160008CBCD1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B94B4C11E64415F008CBCD1 /* RVDoubleSelfieCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B94B4D91E644161008CBCD1 /* Build configuration list for PBXNativeTarget "RVDoubleSelfieCamera" */;
+			buildPhases = (
+				5B94B4BE1E64415F008CBCD1 /* Sources */,
+				5B94B4BF1E64415F008CBCD1 /* Frameworks */,
+				5B94B4C01E64415F008CBCD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RVDoubleSelfieCamera;
+			productName = TestEx;
+			productReference = 5B94B4C21E64415F008CBCD1 /* RVDoubleSelfieCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B94B4BA1E64415F008CBCD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = VitaliyRyzhov;
+				TargetAttributes = {
+					5B94B4C11E64415F008CBCD1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9A76X49266;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5B94B4BD1E64415F008CBCD1 /* Build configuration list for PBXProject "RVDoubleSelfieCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B94B4B91E64415F008CBCD1;
+			productRefGroup = 5B94B4C31E64415F008CBCD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B94B4C11E64415F008CBCD1 /* RVDoubleSelfieCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B94B4C01E64415F008CBCD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B94B4E11E65EC20008CBCD1 /* Main.storyboard in Resources */,
+				5B94B4D21E644161008CBCD1 /* Assets.xcassets in Resources */,
+				5B94B4E01E65EC20008CBCD1 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B94B4BE1E64415F008CBCD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B94B4CD1E644160008CBCD1 /* RVViewController.m in Sources */,
+				5B94B4CA1E644160008CBCD1 /* AppDelegate.m in Sources */,
+				5B94B4C71E644160008CBCD1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B94B4DC1E65EC20008CBCD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B94B4DD1E65EC20008CBCD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5B94B4DE1E65EC20008CBCD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B94B4DF1E65EC20008CBCD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B94B4D71E644161008CBCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B94B4D81E644161008CBCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B94B4DA1E644161008CBCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9A76X49266;
+				IBSC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
+				INFOPLIST_FILE = RVDoubleSelfieCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HwG.TestEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B94B4DB1E644161008CBCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9A76X49266;
+				IBSC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS = YES;
+				INFOPLIST_FILE = RVDoubleSelfieCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HwG.TestEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B94B4BD1E64415F008CBCD1 /* Build configuration list for PBXProject "RVDoubleSelfieCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B94B4D71E644161008CBCD1 /* Debug */,
+				5B94B4D81E644161008CBCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B94B4D91E644161008CBCD1 /* Build configuration list for PBXNativeTarget "RVDoubleSelfieCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B94B4DA1E644161008CBCD1 /* Debug */,
+				5B94B4DB1E644161008CBCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B94B4BA1E64415F008CBCD1 /* Project object */;
+}
